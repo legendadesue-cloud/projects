@@ -1,8 +1,9 @@
 import Link from "next/link";
 
-export function Header (){
-    return (
-            <header>
+export default function Header() {
+  return (
+    <>
+      <header>
         <nav className="navbar">
           <div className="brandName">
             <div className="brandLogo">
@@ -74,6 +75,6 @@ export function Header (){
           </div>
         </nav>
       </header>
-
-    )
+    </>
+  );
 }

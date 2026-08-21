@@ -1,6 +1,9 @@
-export function Footer(){
-    return(
-              <footer>
+import Link from "next/link";
+
+export default function Footer() {
+  return (
+    <>
+      <footer>
         <section className="footerLinks">
           <div className="fieldwork-brand">
             <h2>ARMSLENGTH</h2>
@@ -48,6 +51,6 @@ export function Footer(){
           <p>&copy; 2026 ARMSLENGTH. All rights reserved.</p>
         </div>
       </footer>
-
-    )
+    </>
+  );
 }

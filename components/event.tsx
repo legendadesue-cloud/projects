@@ -1,12 +1,10 @@
-import  {events} from  "@/src/event.";
-import  ImageCard from "@/components/imageCard";
+import  ImageCard  from "@/components/imageCard";
+import { events } from "@/src/event";
 
-export default function Events() //function decleration
-{
+export default function Events() {
   return (
     <div className="events-container">
-      {events.map((event) => //arrow function to map through the events array and render each event as a card
-       (
+      {events.map((event) => (
         <div
           key={event.id}
           className="event-card"
